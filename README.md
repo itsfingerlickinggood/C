@@ -141,5 +141,3 @@ To compile and run any program:
 To run the compiled program, use the following command:
 ```bash
 ./program
-
-
