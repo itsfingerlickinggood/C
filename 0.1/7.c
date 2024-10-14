@@ -4,6 +4,6 @@ int main(){
 	for(i=0;i<3;i++){
 		int i=10;
 		printf("%d",i);
-		i++
+		i++;
 	}
 }
