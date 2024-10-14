@@ -137,7 +137,3 @@ To compile and run any program:
    ```bash
    gcc -o program program.c
    
-### Running the Compiled Output
-To run the compiled program, use the following command:
-```bash
-./program
