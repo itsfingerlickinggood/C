@@ -1,17 +1,38 @@
 #include <stdio.h>
-int main(){
-	int num = 2;
-	switch(num){
-		case 1:printf("One\n");break;
-		case 2:printf("Two\n");
-		case 3:printf("Three\n");break;
-		case 4:printf("Four\n");break;
-		default: printf("Invalid\n");
+#include <math.h>
+
+int main()
+{
+	int n, isPrime = 1;
+
+	printf("Enter a number: ");
+	scanf("%d", &n);
+
+	if (n <= 1)
+	{
+		isPrime = 0;
 	}
+	else
+	{
+		int limit = (int)sqrt(n);
+		for (int i = 2; i <= limit; i++)
+		{
+			if (n % i == 0)
+			{
+				isPrime = 0;
+				break;
+			}
+		}
+	}
+
+	if (isPrime)
+	{
+		printf("%d is a prime number\n", n);
+	}
+	else
+	{
+		printf("%d is not a prime number\n", n);
+	}
+
+	return 0;
 }
-
-
-//the answer would print upto where the break statement in encountered upon 
-// in this case the answer would be : 
-// Two
-//Three   -only.
