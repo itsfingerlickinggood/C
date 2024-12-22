@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #define MAX 10
 
 // Function to find the determinant of a matrix
