@@ -1,7 +1,6 @@
 #include <stdio.h>
 #define MAX 10
 
-// Function to find the determinant of a matrix
 int determinant(int matrix[MAX][MAX], int n) {
     int det = 0;
     int temp[MAX][MAX]; // Temporary matrix for minors
