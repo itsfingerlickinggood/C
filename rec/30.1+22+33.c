@@ -5,7 +5,7 @@ int main(){
 	scanf("%d",&a);
 	
 	int i,j;
-	float f1actorial,sum=0;
+	float factorial,sum=0;
 	
 	for(i=1;i<=a;i++){
 		factorial=1;

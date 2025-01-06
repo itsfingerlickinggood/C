@@ -15,4 +15,4 @@ int main(){
 	else{
 		printf("\n\tThe given character %c is not a VOWEL !",a);
 	}
-}
+}			

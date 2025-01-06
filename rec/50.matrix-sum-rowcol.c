@@ -34,7 +34,7 @@ int main(){
 		printf("\nSum of row-%d is : %d",i+1,sumrow);
 	}
 	
-	printf("\n\n")
+	printf("\n\n");
 	
 	for(i=0;i<b;i++){
 		sumcol=0;

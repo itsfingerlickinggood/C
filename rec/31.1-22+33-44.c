@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 	int a,i,j;
-	printf("Enter the numbe upto which to find series (1 - 2/2! + 3/3! - 4/4! + …. + n/n!)");
+	printf("Enter the number upto which to find series (1 - 2/2! + 3/3! - 4/4! + …. + n/n!)");
 	scanf("%d",&a);
 	
 	float sum=0,factorial;
