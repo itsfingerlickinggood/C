@@ -3,15 +3,15 @@
 
 int main(){
 	
-	int size,i,*arr;
-
-	printf("Enter the no of elements : ");
+	int size,*arr,i;
+	
+	printf("Enter the number of elements : ");
 	scanf("%d",&size);
 	
 	arr=(int*)calloc(size,sizeof(int));
 	
 	for(i=0;i<size;i++){
-		printf("Enter element at %d : ",i);
+		printf("Enter element at %d :",i);
 		scanf("%d",&arr[i]);
 	}
 	
@@ -24,4 +24,3 @@ int main(){
 	
 	return 0;
 }
-
